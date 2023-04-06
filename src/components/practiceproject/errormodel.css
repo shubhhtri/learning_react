@@ -1,0 +1,20 @@
+.error{
+    background-color: rgb(255, 168, 134);
+    width: 400px;
+    margin: auto;
+    padding: 5px 0px 20px 0px;
+    border: 2px solid black;
+    border-radius:  20px;
+    box-shadow: 10px 10px 10px grey ;
+    
+}
+
+.butt{
+    width: 80px;
+    height: 40px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
