@@ -1,9 +1,10 @@
 import './App.css';
+import RouteMain from './components/learnrouting/RouteMain';
 // import Head from './components/Head';
 // import Mid from "./components/Mid"
 // import Nav from './components/Nav';
-//import Main from './components/practiceproject/Main';
-import Main2 from './components/project2/Main2';
+import Main from './components/practiceproject/Main';
+//import Main2 from './components/project2/Main2';
 
 function App() {
 
@@ -21,7 +22,9 @@ function App() {
 
       {/* <Main /> */}
 
-      <Main2 />
+      {/* <Main /> */}
+
+      <RouteMain />
       
 
     </div>
