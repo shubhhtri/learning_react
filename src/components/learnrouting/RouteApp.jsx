@@ -8,6 +8,7 @@ import NavBar from './NavBar';
 import NoMatch from './NoMatch';
 import Users from './Users';
 import UserDetails from './UserDetails';
+import Login from './Login';
 
 //import About from './About';
 const LazyAbout=React.lazy(()=>import("./About"));
@@ -21,7 +22,7 @@ function RouteApp() {
 
 
             <Route path="/about" element={<React.Suspense fallback="Loading...">   <LazyAbout />  </React.Suspense>} />
-            
+            <Route path="/auth" element={<Login />} />
             
             <Route path="/products" element={<Products />} >
                 <Route path='new-products' element={<NewProducts />} />
